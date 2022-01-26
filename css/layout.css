@@ -1,4 +1,31 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+/* VARIABLES */
+:root {
+    --margenExterno: 30px;
+    --logoAltura: 50px;
+    --longNav: 0.5;
+}
 
+/* HEADER */
+
+header {
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--margenExterno);
+}
+
+/* LOGO */
+    .logo {
+        height: var(--longAltura);
+    }
+
+/* NAV */ 
+nav {
+    flex-grow: var(--longNav);
+    display:flex;
+    justify-content: space-between;
+}
