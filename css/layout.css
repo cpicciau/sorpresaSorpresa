@@ -4,12 +4,11 @@
 /* VARIABLES */
 :root {
     --margenExterno: 30px;
-    --logoAltura: 50px;
+    --logoAltura: 80px;
     --longNav: 0.5;
 }
 
 /* HEADER */
-
 header {
     background-color: aquamarine;
     display:flex;
@@ -20,7 +19,7 @@ header {
 
 /* LOGO */
     .logo {
-        height: var(--longAltura);
+        height: var(--logoAltura);
     }
 
 /* NAV */ 
