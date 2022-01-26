@@ -10,7 +10,7 @@
 
 /* HEADER */
 header {
-    background-color: aquamarine;
+    background-color: var(--colorHeader);
     display:flex;
     align-items: center;
     justify-content: space-between;
